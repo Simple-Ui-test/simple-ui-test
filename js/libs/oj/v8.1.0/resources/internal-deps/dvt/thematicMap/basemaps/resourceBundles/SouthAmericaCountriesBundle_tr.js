@@ -1,0 +1,1 @@
+"use strict";var l={FLK:["FLK","Falkland Adaları"],CHL:["CHL","Şili"],TTO:["TTO","Tirinidad ve Tobago"],GUF:["GUF","Fransız Guyanası"],BOL:["BOL","Bolivya"],COL:["COL","Kolombiya"],BRA:["BRA","Brezilya"],SUR:["SUR","Surinam"],ECU:["ECU","Ekvator"],ARG:["ARG","Arjantin"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["southAmerica","countries",l]);

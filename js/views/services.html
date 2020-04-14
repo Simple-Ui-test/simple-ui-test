@@ -1,0 +1,53 @@
+<!--
+ Copyright (c) 2014, 2020, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+<div class="oj-hybrid-padding">
+  <oj-bind-if test="[[customerId() === 'NA']]">
+    <h1>
+      No data was shown.
+      No customer id is available.
+    </h1>
+  </oj-bind-if>
+  <oj-bind-if test="[[customerId() !== 'NA']]">
+    <h1>  
+      Customers service list used by:     <br>
+      <b><oj-bind-text value="[[customerName]]"></oj-bind-text></b> 
+      <span style="font-size:14px; color: lightgray">customer uuid: <oj-bind-text value="[[customerId]]"></oj-bind-text></span>
+    </h1>
+    <br>
+    <h6>Hint!: Although currently there is a single mock endpoint for all users, in a real application enviroment every user would do a call with his UUID, getting his own specific service data. </h6>
+    <br>
+
+    <oj-gantt id="gantt" aria-label="Services"
+        start="[[projectStartDate]]"
+        end="[[projectEndDate]]"
+        viewport-start="[[viewportStart]]"
+        viewport-end="[[viewportEnd]]"
+        gridlines.horizontal="visible"
+        gridlines.vertical="visible"
+        major-axis.scale="months"
+        major-axis.zoom-order='["quarters", "months", "weeks", "days"]'
+        minor-axis.scale="weeks"
+        minor-axis.zoom-order='["quarters", "months", "weeks", "days"]'
+        row-axis.rendered="on"
+        task-data="[[activityDataProvider]]"      
+        task-defaults.label-position="innerCenter"      
+        style="width:100%; height:200px">
+      <template slot="rowTemplate" data-oj-as="row">
+        <oj-gantt-row
+            label="[[row.id]]">
+        </oj-gantt-row>
+      </template>
+      <template slot="taskTemplate" data-oj-as="task">
+        <oj-gantt-task
+            row-id="[[task.data.resource]]"
+            start="[[task.data.begin]]"
+            end="[[task.data.finish]]"
+            label="[[task.data.name]]"
+            label-position="end">
+        </oj-gantt-task>
+      </template>
+    </oj-gantt>
+  </oj-bind-if>
+</div>

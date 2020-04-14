@@ -1,0 +1,1 @@
+"use strict";var l={NY_NEW_YORK:[null,"Nova Iorque"],PA_PHILADELPHIA:[null,"Filadélfia"],MO_COLUMBIA:[null,"Colúmbia"],IN_INDIANAPOLIS:[null,"Indianápolis"],NM_SANTA_FE:[null,"Santa Fé"],SC_COLUMBIA:[null,"Colúmbia"],LA_NEW_ORLEANS:[null,"Nova Orleães"],CA_SAN_FRANCISCO:[null,"São Francisco"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["usa","cities",l]);

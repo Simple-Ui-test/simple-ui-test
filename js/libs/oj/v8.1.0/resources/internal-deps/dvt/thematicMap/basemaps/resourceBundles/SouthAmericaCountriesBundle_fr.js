@@ -1,0 +1,1 @@
+"use strict";var l={FLK:["FLK","Iles Malouines"],CHL:["CHL","Chili"],TTO:["TTO","Trinité-et-Tobago"],GUF:["GUF","Guyane française"],BOL:["BOL","Bolivie"],COL:["COL","Colombie"],BRA:["BRA","Brésil"],ECU:["ECU","Equateur"],ARG:["ARG","Argentine"],PER:["PER","Pérou"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["southAmerica","countries",l]);

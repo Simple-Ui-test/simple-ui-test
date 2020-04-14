@@ -1,0 +1,1 @@
+"use strict";var l={FLK:["FLK","Falklandy"],TTO:["TTO","Trinidad a Tobago"],GUF:["GUF","Francouzská Guayana"],BOL:["BOL","Bolívie"],COL:["COL","Kolumbie"],GUY:["GUY","Guayana"],BRA:["BRA","Brazílie"],SUR:["SUR","Surinam"],ECU:["ECU","Ekvádor"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["southAmerica","countries",l]);

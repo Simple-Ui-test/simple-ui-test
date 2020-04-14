@@ -1,0 +1,1 @@
+"use strict";var l={HI:["HI","Havaí"],AK:["AK","Alasca"],CA:["CA","Califórnia"],NH:["NH","Nova Hampshire"],NJ:["NJ","Nova Jersey"],NM:["NM","Novo México"],FL:["FL","Flórida"],NY:["NY","Nova York"],GA:["GA","Geórgia"],PA:["PA","Pensilvânia"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["usa","states",l]);

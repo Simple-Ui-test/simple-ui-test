@@ -1,0 +1,90 @@
+<!--
+ Copyright (c) 2014, 2020, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+<div class="oj-hybrid-padding">
+  <h1>
+    <span title=".demo-people-icon-24" role="img" style="font-size: 32px;;"            
+      class="demo-people-icon-24 demo-icon-font-24"></span> 
+      Customers
+  </h1>
+
+  <oj-table id='table' aria-label='Customers Table'
+    data='[[activityDataProvider]]'
+    scroll-policy='loadMoreOnScroll'
+    scroll-policy-options='{"fetchSize": 50}'
+    columns='[[columnArray]]'
+    style='width: 100%; height: 500px;'>
+    
+    <template slot="netIncomeCellTemplate" data-oj-as="cell">      
+      <oj-form-layout>
+        <oj-input-text
+          value="{{cell.data}}" 
+          readonly          
+          converter='[[usdShortNumberConverter]]'> 
+        </oj-input-text>
+      </oj-form-layout>
+    </template>
+    <template slot="serviceCellTemplate" data-oj-as="cell">      
+      <oj-button  on-click="[[showServices]]">
+        <span slot="startIcon" class="oj-fwk-icon oj-fwk-icon-grid"></span>
+        Service list
+      </oj-button>
+    </template>
+    <template slot="siteCellTemplate" data-oj-as="cell">      
+      <oj-button chroming='outlined' on-click="[[openCustomerSiteDialog]]">
+        <span slot="endIcon" class="oj-fwk-icon oj-fwk-icon-next"></span>
+        Show sites        
+      </oj-button>
+    </template>
+  </oj-table>
+
+  <oj-dialog id="modalDialog" dialog-title="Customer sites"
+    style="display:none;width: 50vw; height: 50vh;">
+    <div slot="body">
+      <oj-bind-for-each data="[[dialogDataProvider]]">
+        <template>        
+          <div class="simple-card__container">
+            <div class="simple-card__item">
+              <div class="simple-card__title"> 
+                Zip
+              </div>
+              <div class="simple-card__data"> 
+                <oj-bind-text value="[[$current.data.zip]]"></oj-bind-text>
+              </div>
+            </div>
+            <div class="simple-card__item">
+              <div class="simple-card__title"> 
+                City
+              </div>
+              <div class="simple-card__data"> 
+                <oj-bind-text value="[[$current.data.city]]"></oj-bind-text>
+              </div>             
+            </div>
+            <div class="simple-card__item">
+              <div class="simple-card__title"> 
+                Street
+              </div>
+              <div class="simple-card__data"> 
+                <oj-bind-text value="[[$current.data.street]]"></oj-bind-text>
+              </div>             
+            </div>
+            <div class="simple-card__item" style="border-bottom: none;">
+              <div class="simple-card__title"> 
+                Number
+              </div>
+              <div class="simple-card__data"> 
+                <oj-bind-text value="[[$current.data.house_number]]"></oj-bind-text>
+              </div>             
+            </div>
+          </div>          
+        </template>
+      </oj-bind-for-each>        
+    </div>
+    <div slot="footer">
+      <oj-button id="closeButton" on-oj-action="[[closeCustomerSiteDialog]]"> Close
+      </oj-button>
+    </div>
+  </oj-dialog>
+
+</div>

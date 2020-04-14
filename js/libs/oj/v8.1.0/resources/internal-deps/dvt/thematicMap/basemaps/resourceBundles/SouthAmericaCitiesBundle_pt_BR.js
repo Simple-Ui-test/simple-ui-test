@@ -1,0 +1,1 @@
+"use strict";var l={PRY_ASUNCION:[null,"Assunção"],BRA_BRASILIA:[null,"Brasília"],URY_MONTEVIDEO:[null,"Montevidéu"],COL_BOGOTA:[null,"Bogotá"],TTO_PORT_OF_SPAIN:[null,"Porto de Espanha"],BRA_SAO_PAULO:[null,"São Paulo"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["southAmerica","cities",l]);

@@ -1,0 +1,1 @@
+"use strict";var l={FL_ST__PETERSBURG:[null,"Szentpétervár"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["usa","cities",l]);

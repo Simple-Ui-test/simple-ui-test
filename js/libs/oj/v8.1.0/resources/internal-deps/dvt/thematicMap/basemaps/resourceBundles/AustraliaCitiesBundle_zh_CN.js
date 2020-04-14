@@ -1,0 +1,1 @@
+"use strict";var l={NZL_WELLINGTON:[null,"惠灵顿"],AUS_CANBERRA:[null,"堪培拉"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["australia","cities",l]);

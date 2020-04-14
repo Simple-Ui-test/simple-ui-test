@@ -1,0 +1,37 @@
+/*
+    Document   : override
+    Created on : <date>
+    Author     : <author>
+    Description:
+        This is where any of your application specific styles should be included
+*/
+
+.sendOffScreen {
+  position: absolute; left: -10000px;
+  top: auto; width: 1px;
+  height: 1px; overflow: hidden;
+}
+
+.table--align-right {
+  text-align: right!important;  
+}
+
+.simple-card__container{
+  box-shadow: 0 0 3px rgba(0,0,0,0.3); 
+  border-radius: 2px; padding:13px; box-sizing: border-box; 
+  margin: 7px; width: 30%; height:165px; min-width:280px; float: left;
+}
+.simple-card__item{
+  display:table; width: 100%; 
+  border-bottom: 1px solid lightgray; margin-bottom: 10px; 
+}
+
+.simple-card__title{
+  display: table-cell; width:50px; padding-right:10px; 
+  padding-bottom:10px; color: lightgray; text-align: right;
+}
+
+.simple-card__data{
+  display: table-cell; font-weight: bold;
+}
+

@@ -1,0 +1,7 @@
+/**
+ * @license
+ * Copyright (c) 2014, 2020, Oracle and/or its affiliates.
+ * The Universal Permissive License (UPL), Version 1.0
+ * @ignore
+ */
+define(["accUtils","knockout","ojs/ojarraydataprovider","ojs/ojknockout","ojs/ojgantt","ojs/ojrouter"],(function(t,e,o){return function(){var r=this;r.router,r.params,r.customerId=e.observable(""),r.customerName=e.observable(""),r.connected=function(){t.announce("Services page loaded."),r.setTitle("Services")},r.setTitle=function(t){document.title=t},r.disconnected=function(){},r.transitionCompleted=function(){r.router=oj.Router.rootInstance,r.params=r.router.retrieve(),r.params||(r.params={customerId:"NA",customerName:"NA"}),r.setCustomer(r.params.customerId,r.params.customerName),r.router.store()},r.setCustomer=function(t,e){r.customerId(t),r.customerName(e)},r.projectStartDate=new Date("Jan 1, 2020").toISOString(),r.projectEndDate=new Date("Aug 31, 2020").toISOString(),r.viewportStart=new Date("Jan 1, 2020").toISOString(),r.viewportEnd=new Date("Jul 10, 2020").toISOString(),r.activityDataProvider=e.observable(),$.getJSON("api/mock/services/service_data.json").then((function(t){r.activityDataProvider(new o(t,{keyAttributes:"id"}))}))}}));

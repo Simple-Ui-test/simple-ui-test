@@ -1,0 +1,1 @@
+"use strict";var l={PRY_ASUNCION:[null,"Asunción"],COL_BOGOTA:[null,"Bogotá"],TTO_PORT_OF_SPAIN:[null,"Puerto de España"],BRA_RIO_DE_JANEIRO:[null,"Río de Janeiro"],BRA_SALVADOR:[null,"El Salvador"],COL_MEDELLIN:[null,"Medellín"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["southAmerica","cities",l]);

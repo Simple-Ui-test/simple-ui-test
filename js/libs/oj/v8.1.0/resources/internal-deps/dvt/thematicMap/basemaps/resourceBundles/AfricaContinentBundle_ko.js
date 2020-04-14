@@ -1,0 +1,1 @@
+"use strict";var l={AF:["AF","아프리카"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["africa","continent",l]);

@@ -1,0 +1,1 @@
+"use strict";var l={USA_BALTIMORE:[null,"Baltimora"],CUB_HAVANA:[null,"L'Avana"],MEX_MEXICO_CITY:[null,"Città del Messico"],CRI_SAN_JOSE:[null,"San José"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["northAmerica","cities",l]);

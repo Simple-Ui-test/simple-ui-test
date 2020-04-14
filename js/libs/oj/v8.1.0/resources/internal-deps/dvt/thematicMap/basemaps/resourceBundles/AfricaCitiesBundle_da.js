@@ -1,0 +1,1 @@
+"use strict";var l={TGO_LOME:[null,"Lomé"],ZAF_CAPE_TOWN:[null,"Kapstaden"],DZA_ALGIERS:[null,"Algier"],EGY_CAIRO:[null,"Kairo"],CMR_YAOUNDE:[null,"Yaoundé"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["africa","cities",l]);

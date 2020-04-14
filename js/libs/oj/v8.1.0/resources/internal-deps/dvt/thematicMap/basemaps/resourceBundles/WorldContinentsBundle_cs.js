@@ -1,0 +1,1 @@
+"use strict";var l={AF:["AF","Afrika"],SA:["JA","Jižní Amerika"],EU:["EU","Evropa"],AS:["AS","Asie"],NA:["SA","Severní Amerika"],AU:["AU","Austrálie"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["world","continents",l]);

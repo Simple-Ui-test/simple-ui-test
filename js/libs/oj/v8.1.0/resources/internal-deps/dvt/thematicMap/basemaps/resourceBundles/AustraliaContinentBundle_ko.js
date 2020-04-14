@@ -1,0 +1,1 @@
+"use strict";var l={AU:["AU","오스트레일리아"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["australia","continent",l]);

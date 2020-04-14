@@ -1,0 +1,1 @@
+"use strict";var l={NA:["NA","北アメリカ"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["northAmerica","continent",l]);

@@ -1,0 +1,1 @@
+"use strict";var l={NZL:["NZL","紐西蘭"],AUS:["AUS","澳大利亞"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["australia","countries",l]);

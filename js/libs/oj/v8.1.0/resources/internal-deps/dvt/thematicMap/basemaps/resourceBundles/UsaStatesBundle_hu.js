@@ -1,0 +1,1 @@
+"use strict";var l={AK:["AK","Alaszka"],SC:["SC","Dél-Carolina"],SD:["SD","Dél-Dakota"],CA:["CA","Kalifornia"],CO:["CO","Kolorádó"],NC:["NC","Észak-Carolina"],ND:["ND","Észak-Dakota"],NM:["NM","Új Mexikó"],WV:["WV","Nyugat-Virginia"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["usa","states",l]);

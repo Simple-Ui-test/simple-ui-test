@@ -1,0 +1,1 @@
+"use strict";var l={FLK:["FLK","Falkland, Insulele (Malvine)"],TTO:["TTO","Trinidad şi Tobago"],GUF:["GUF","Guyana franceză"],COL:["COL","Columbia"],BRA:["BRA","Brazilia"],SUR:["SUR","Surinam"]};(this?this:window).DvtBaseMapManager._UNPROCESSED_MAPS[2].push(["southAmerica","countries",l]);

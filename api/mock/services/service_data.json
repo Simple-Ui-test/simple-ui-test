@@ -1,0 +1,86 @@
+[
+    {
+      "id": "task_1_1",
+      "begin": "2020-01-07T12:34:33.756Z",
+      "finish": "2020-01-21T12:34:33.756Z",
+      "name": "Lorem ipsum: order id: 1400",
+      "resource": "Service A"
+    },
+    {
+      "id": "task_1_2",
+      "begin": "2020-01-31T08:13:44.999Z",
+      "finish": "2020-02-09T02:33:07.076Z",
+      "name": "Premium version: order id: 1200",
+      "resource": "Service A"
+    },
+    {
+      "id": "task_1_3",
+      "begin": "2020-04-07T02:22:51.657Z",
+      "finish": "2020-04-15T20:31:34.255Z",
+      "name": "Default description goes here.",
+      "resource": "Service A"
+    },
+    {
+      "id": "task_1_4",
+      "begin": "2020-06-16T08:23:57.077Z",
+      "finish": "2020-06-28T00:45:13.188Z",
+      "name": "Default description goes here.",
+      "resource": "Service A"
+    },
+    {
+      "id": "task_2_1",
+      "begin": "2020-01-21T18:01:23.520Z",
+      "finish": "2020-01-31T14:29:36.841Z",
+      "name": "Cancelled. Order Id: 1111",
+      "resource": "Service B"
+    },
+    {
+      "id": "task_2_2",
+      "begin": "2020-03-21T21:27:10.404Z",
+      "finish": "2020-03-29T14:54:10.649Z",
+      "name": "Description: orderId332",
+      "resource": "Service B"
+    },
+    {
+      "id": "task_2_3",
+      "begin": "2020-04-22T23:15:26.137Z",
+      "finish": "2020-05-06T23:15:26.137Z",
+      "name": "Description: orderId430",
+      "resource": "Service B"
+    },
+    {
+      "id": "task_2_4",
+      "begin": "2020-07-04T21:16:20.486Z",
+      "finish": "2020-07-18T19:25:47.188Z",
+      "name": "orderId936",
+      "resource": "Service B"
+    },
+    {
+      "id": "task_3_1",
+      "begin": "2020-01-06T04:32:47.519Z",
+      "finish": "2020-01-20T04:32:47.519Z",
+      "name": "Description: orderId166",
+      "resource": "Service C"
+    },
+    {
+      "id": "task_3_2",
+      "begin": "2020-03-11T04:12:57.763Z",
+      "finish": "2020-03-25T04:12:57.763Z",
+      "name": "Longer description is still usable: orderId508",
+      "resource": "Service C"
+    },
+    {
+      "id": "task_3_3",
+      "begin": "2020-04-20T06:15:39.135Z",
+      "finish": "2020-05-04T06:15:39.135Z",
+      "name": "orderId286",
+      "resource": "Service C"
+    },
+    {
+      "id": "task_3_4",
+      "begin": "2020-07-09T01:40:50.649Z",
+      "finish": "2020-07-23T01:40:50.649Z",
+      "name": "orderId595",
+      "resource": "Service C"
+    }   
+  ]
