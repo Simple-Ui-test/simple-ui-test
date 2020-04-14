@@ -1,7 +1,0 @@
-/**
- * @license
- * Copyright (c) 2014, 2020, Oracle and/or its affiliates.
- * The Universal Permissive License (UPL), Version 1.0
- * @ignore
- */
-define(["ojs/ojcore","ojs/ojurlpathadapter","ojs/ojlogger"],(function(o,t,e){"use strict";function r(o,t,e){return t in o?Object.defineProperty(o,t,{value:e,enumerable:!0,configurable:!0,writable:!0}):o[t]=e,o}return function(){function o(){var o=document.location.search?document.location.search.substring(1):"",t=[];return o&&o.split("&").forEach((function(o){var e,n=o.split("=");t.push(r({},n[0],(e=n[1],decodeURIComponent(e))))})),t}function e(o){var t=[];return o.forEach((function(o){var e,r=Object.keys(o)[0];t.push(r+"="+(e=o[r],encodeURIComponent(e)))})),t.join("&")}function n(){this._pathAdapter=new t("")}return n.prototype.getRoutesForUrl=function(){var t,e,r=(t=o(),e="",t.forEach((function(o){o._ojCoreRouter&&(e=o._ojCoreRouter)})),e);return this._pathAdapter.getRoutesForUrl(r)},n.prototype.getUrlForRoutes=function(t){var n,u,i,c=this._pathAdapter.getUrlForRoutes(t);return c.indexOf("?")>-1&&(c=c.substring(0,c.indexOf("?"))),"?"+(n=c,u=o(),i=!1,u.forEach((function(o){o._ojCoreRouter&&(o._ojCoreRouter=n,i=!0)})),i||u.push(r({},"_ojCoreRouter",n)),e(u))},n}()}));
